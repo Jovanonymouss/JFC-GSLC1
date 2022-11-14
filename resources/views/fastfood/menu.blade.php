@@ -2,8 +2,8 @@
 @extends('reusable.template')
 
     @for($i=0;$i<count($fastfood);$i++)
-        <div class="d-flex justify-content-around img-rounded">
-            <div class="card" style="width: 20rem;">
+        <div class="d-flex justify-content-around img-rounded" style="">
+            <div class="card" style="margin-top: 50px; width: 20rem; box-shadow: 0 2px 20px gray;">
                 <div>
                     <img class="card-img-top rounded mx-auto d-block" style="margin:20px; width:200px" src={{ $photo[$i] }} alt="Card image cap">
                 </div>

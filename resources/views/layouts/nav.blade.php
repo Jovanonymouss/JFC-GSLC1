@@ -1,8 +1,13 @@
 @section('title', 'JFC : Jovan Fried Chicken')
 @section('content')
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Jovan Fried Chicken</a>
+  <style>
+    body{
+      background-image: url(https://img.freepik.com/premium-vector/junk-food-illustration_102026-350.jpg?w=2000);
+      background-size: cover;
+    }
+  </style>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" style="" href="#">Jovan Fried Chicken</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
